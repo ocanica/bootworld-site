@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'bebas neue';
+    src: url('../fonts/BebasNeue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+article span {
+    font-weight: bold;
+}
+
+img {
+	border: none;
+}
+
+footer {
+    margin-top: 1em;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+body {
+    font-family: Verdana, Arial, Geneva, sans-serif;
+    color: #000000; 
+    background-color: #ffffff;
+    width: 90%;
+    margin: auto;
+    font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6, #pageheader #primary, #subscribe legend {
+    font-weight: normal;
+    color: #3e3e3e;
+    font-family: 'bebas neue', Georgia, serif;
+}
+
+h2 {
+    font-size: 2.4em;
+    margin-bottom: 0.25em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+a:link, a:visited {
+    color: #016008;
+    text-decoration: none;
+}
+
+legend {
+    font-size: 2.25em;
+    margin-bottom: 1%;
+}
+
+label {
+    font-weight: bold;
+}
+
+label span {
+    color: #ff0000;
+}
+
+fieldset {
+    margin-top: 1em;
+    background-color: #ffffff;
+}
+
+input {
+    display: block; 
+}
+
+.border {
+    border: 1px solid #dddddd;
+}
+
+#page {
+    width: 90%;
+    margin: auto;
+    padding-top: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-left : 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+}
+
+#pageheader {
+    overflow: hidden;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+#pageheader h1 {
+    float: left;
+    font-size: 6em;
+    color: #016008;
+    text-shadow: 2px 2px 0 #000000;
+}
+
+#pageheader h1 span {
+    font-size: 0.75em;
+}
+
+#pageheader #commonlinks ul {
+    float: right;
+}
+
+#pageheader #commonlinks li {
+    float: left;
+    margin-right: 1em;
+}
+
+#pageheader #commonlinks li:last-child {
+    margin-right: 0;
+}
+
+#pageheader #commonlinks a:link {
+    text-decoration: none;
+}
+
+#primary ul {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    clear: both;
+}
+
+#primary li a{
+    display: inline-block;
+    font-size: 1.5em;
+    float: left;
+    background-color: #cccccc;
+    color: #000000;
+    border-radius: 0.25em;
+    padding-top: 0.5em;
+    padding-right: 1.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    margin-top: 1em;
+    margin-right: 1.25em;
+    box-shadow: 2px 2px 0 #3e3e3e;
+    text-decoration: none;
+}
+
+#primary a:hover {
+    background-color: #f6f6f6;
+}
+
+#introduction {
+    overflow: hidden;
+    padding: 1.75em;
+    margin-bottom: 1.5em;
+}
+
+#imagewrapper {
+    width: 51%;
+    float: left;
+}
+
+#textbody {
+    width: 47%;
+    float: right;
+}
+
+#textbody p {
+    font-size: 1.5em;
+    color: #3e3e3e;
+}
+
+#contentcontainer {
+    padding: 1.75em;
+    overflow: hidden;
+    margin-bottom: 1.5em;
+}
+
+#contentcontainer a, span {
+    font-size: 1em;
+}
+
+#newInShop {
+    float: left;
+    width: 65%;
+}
+
+#newInShop h3{
+    color: #016008;
+}
+
+#inner {
+    padding: 1.5em;
+    background-color: #dddddd;
+}
+
+#inner article {
+    margin-top: 0.5em;
+    padding-bottom: 2em;
+}
+
+#sidebars {
+    float: right;
+    width: 33%;
+}
+
+#sidebars a {
+    text-decoration: underline;
+}
+
+#sidebars footer {
+    text-align: right;
+}
+
+#latestnews {
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    background-color: #dddddd;
+}
+
+#subscribe {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background-color: #dddddd;
+}
+
+.controlgroup input {
+    margin-bottom: 1.25em;
+    width:98%;  
+}
+
+#pagefooter {
+    background-color: #dddddd;
+    padding: 1.5em;
+}
+
+#pagefooter p {
+    color: #3e3e3e;
+    font-weight: bold;
+}
